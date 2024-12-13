@@ -1,0 +1,28 @@
+aside{
+  background: url(../Assets/Background.png) no-repeat bottom/cover;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  height: 100vh;
+
+  img{
+    width: fit-content;
+  }
+
+  #aside-text{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+
+    h1{
+      font: var(--logo);
+      color: var(--pink);
+    }
+
+    p{
+      font: var(--body-md);
+    }
+  }
+}
